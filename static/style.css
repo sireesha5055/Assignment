@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Style the form */
+h1{
+  text-align:center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the body covers the full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color:black;
+}
+
+.container {
+    width: 50%; /* Adjust container width as needed */
+    max-width: 500px; /* Limit maximum width for better readability */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for visual effect */
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style form input fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style form submit button */
+button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: blue;
+}
